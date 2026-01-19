@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luis Marcelo - Portafolio</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<div id="image-modal" class="modal">
+    <span class="modal-close">&times;</span>
+    <img class="modal-content" id="modal-img">
+</div>
+
+<body>
+
+    <header class="header">
+        <nav class="nav">
+            <h2 class="logo">Luis</h2>
+            <ul class="nav-menu">
+                <li><a href="#" data-link="inicio" >Inicio</a></li>
+                <li><a href="#" data-link="perfil">Perfil</a></li>
+                <li><a href="#" data-link="proyectos">Proyectos</a></li>
+                <li><a href="#" data-link="certificados">Certificados</a></li>
+                <li><a href="#" data-link="contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="content">
+
+        <section class="section inicio active" data-section="inicio">
+            <h1>Hola, soy Luis Marcelo </h1>
+            <p class="hero-text">
+                Desarrollador en formación enfocado en
+                <strong>HTML</strong>, <strong>CSS</strong>, <strong>JavaScript</strong> y
+                <strong>bases de datos</strong>.
+            </p>
+
+            <p class="hero-subtext">
+                Me interesa el desarrollo de aplicacion,
+                el desarrollo web y la creacion de soluciones practicas.
+
+            </p>
+            
+            <div class="hero-buttons">
+                <a href="#" class="btn" data-link="proyectos">Ver proyectos</a>
+                <a href="#" class="btn" data-link="contacto">Contactarme</a>
+            </div>
+
+        </section>
+
+        <section class="section" data-section="perfil">
+
+            <div class="perfilP"><h2>Sobre mí</h2></div>
+
+            <div class="perfilP">
+                <p>
+                    Soy un desarrollador en formación con interés en el desarrollo de software,
+                    bases de datos y desarrollo web. Me gusta crear tanto páginas como aplicaciones prácticas
+                    y aprender nuevas tecnologías a través de proyectos reales.
+                </p>
+            </div>
+
+            <div class="perfilP">
+                <p>
+                    Actualmente me enfoco en fortalecer mis habilidades en programación con
+                    <strong>HTML</strong>, <strong>CSS</strong> y <strong>JavaScript</strong>, así como en el diseño y
+                    manejo de <strong>bases de datos SQL</strong>.
+                </p>
+            </div>
+
+            <h3>Habilidades técnicas</h3>
+
+            <div class="skills">
+                <div class="skill">
+                    <span>HTML</span>
+                </div>
+                <div class="skill">
+                    <span>CSS</span>
+                </div>
+                <div class="skill">
+                    <span>JavaScript</span>
+                </div>
+                <div class="skill">
+                    <span>SQL Server</span>
+                </div>
+                <div class="skill">
+                    <span>Python</span>
+                </div>
+                <div class="skill">
+                    <span>Java</span>
+                </div>
+            </div>
+
+            <h3>Mi forma de trabajo</h3>
+
+            <ul class="work-style">
+                <li>Aprendo mediante proyectos practicos</li>
+                <li>Me enfoco en escribir codigo claro y ordenado</li>
+                <li>Me interesa entender el "por que" de cada solucion</li>
+                <li>Busco mejorar continuamente</li>
+            </ul>
+
+        </section>
+
+        <section class="section" data-section="proyectos">
+
+            <h2>Proyectos</h2>
+            <p class="section-desc">
+                Algunos de los proyectos que he desarrollado para aprender y aplicar
+                mis conocimientos.
+            </p>
+
+            <div class="proyectos-container">
+
+                <div class="proyecto-card">
+                    <h3>Gestor de Propiedades</h3>
+
+                    <p class="proyecto-desc">
+                        Aplicación de escritorio para el control y administracion de propiedades, tales como casas, terrenos, etc.
+                    </p>
+
+                    <div class="proyecto-tech">
+                        <span>Java</span>
+                        <span>JDBC</span>
+                        <span>SQL Server</span>
+                    </div>
+
+                    <div class="proyecto-links">
+                        <a href="#" class="btn btn-small">Código</a>
+                    </div>
+                </div>
+
+                <div class="proyecto-card">
+                    <h3>Álbum digital 2022</h3>
+
+                    <p class="proyecto-desc">
+                        Aplicación web desarrollada con el proposito de coleccionar estampas y administrarlas
+                    </p>
+
+                    <div class="proyecto-tech">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JS</span>
+                        <span>JSON</span>
+                    </div>
+
+                    <div class="proyecto-links">
+                        <a href="#" class="btn btn-small">Código</a>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section class="section section-certificado" data-section="certificados">
+
+            <h2>Certificados</h2>
+
+            <p class="section-desc">
+                Cursos y certificaciones que he completado como parte de mi formación.
+            </p>
+
+            <div class="certificados-container">
+
+                <div class="certificado-card">
+                    <h3>Python Básico</h3>
+                    <p class="certificado-org">Curso Cisco</p>
+                    <img class="insignia" src="/img/INSIGNIAPYTHONpng.png" alt="Insignia de Python">
+                </div>
+
+                <div class="certificado-card">
+                    <h3>Computacion en la nube</h3>
+                    <p class="certificado-org">Curso AWS</p>
+                    <img class="insignia" src="/img/aws-academy-graduate-aws-academy-cloud-foundations.png" alt="Insignia computacion en la nube">
+                </div>
+
+                <div class="certificado-card">
+                    <h3>Metodologias Agiles</h3>
+                    <p class="certificado-org">Rapid</p>
+                    <img class="insignia" src="/img/METODOLOGIAS AGILES.png" alt="Metodologias Agiles">
+                </div>
+
+                
+
+                <div class="certificado-card">
+                    <h3>Programacion Orientada a Objetos</h3>
+                    <p class="certificado-org">ScrumStudy</p>
+                    <img class="insignia" src="/img/POO.png" alt="InsigniaPOO">
+                </div>
+
+                <div class="certificado-card">
+                    <h3>Sistemas Operativos</h3>
+                    <p class="certificado-org">Red Hat</p>
+                    <img class="insignia" src="/img/SISTEMAS OPERATIVOS.png" alt="Sistemas operativos">
+                </div>
+                
+                <div class="certificado-card in-progress">
+                    <h3>Ciencia de datos</h3>
+                    <p class="certificado-org">Curso Cisco</p>
+                    <img class="insignia" src="/img/Ciencia de datos.png" alt="InsignaCDatos">
+                </div>
+
+                <div class="certificado-card">
+                    <h3>Bases de Datos</h3>
+                    <p class="certificado-org">Oracle Academy</p>
+                    <img class="insignia" src="/img/BASES DE DATOS.png" alt="bases de datos">
+                </div>
+
+                
+            </div>
+
+        </section>
+
+
+        <section class="section section-contacto" data-section="contacto">
+
+            <h2>Contacto</h2>
+
+            <p class="section-desc">
+                Puedes contactarme a través de los siguientes medios:
+            </p>
+
+            <div class="contacto-container">
+
+                <div class="contacto-card">
+                    <h3>Correo</h3>
+                    <a href="mailto:luismarcelomoreno7@gmail.com">
+                        luismarcelomoreno7@gmail.com
+                    </a>
+                </div>
+
+                <div class="contacto-card">
+                    <h3>Teléfono</h3>
+                    <a href="tel:+528123918236">
+                        +52 81 2391 8236
+                    </a>
+                </div>
+
+                <div class="contacto-card">
+                    <h3>GitHub</h3>
+                    <a href="https://github.com/Laxerk/Proyectos" target="_blank">
+                        github.com/Laxerk
+                    </a>
+                </div>
+
+            </div>
+
+        </section>
+
+
+    </main>
+
+
+    <script src="main.js"></script>
+
+</body>
+</html>
