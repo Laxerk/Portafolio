@@ -1,2 +1,2 @@
 # Proyectos
-Los proyectos y aplicaciones que he hecho 
+Un portafolio con informacion sobre mis conocimientos y proyectos
